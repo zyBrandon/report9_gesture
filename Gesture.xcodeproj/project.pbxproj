@@ -12,6 +12,8 @@
 		636E9A3E21A91A4E00DE9D11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636E9A3C21A91A4E00DE9D11 /* Main.storyboard */; };
 		636E9A4021A91A4F00DE9D11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 636E9A3F21A91A4F00DE9D11 /* Assets.xcassets */; };
 		636E9A4321A91A4F00DE9D11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 636E9A4121A91A4F00DE9D11 /* LaunchScreen.storyboard */; };
+		636E9A4B21A91B1A00DE9D11 /* circle_view.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E9A4A21A91B1A00DE9D11 /* circle_view.swift */; };
+		636E9A4D21A92A5800DE9D11 /* CircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 636E9A4C21A92A5800DE9D11 /* CircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		636E9A3F21A91A4F00DE9D11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		636E9A4221A91A4F00DE9D11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		636E9A4421A91A4F00DE9D11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		636E9A4A21A91B1A00DE9D11 /* circle_view.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = circle_view.swift; sourceTree = "<group>"; };
+		636E9A4C21A92A5800DE9D11 /* CircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				636E9A3F21A91A4F00DE9D11 /* Assets.xcassets */,
 				636E9A4121A91A4F00DE9D11 /* LaunchScreen.storyboard */,
 				636E9A4421A91A4F00DE9D11 /* Info.plist */,
+				636E9A4A21A91B1A00DE9D11 /* circle_view.swift */,
+				636E9A4C21A92A5800DE9D11 /* CircleView.swift */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -135,7 +141,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				636E9A4D21A92A5800DE9D11 /* CircleView.swift in Sources */,
 				636E9A3B21A91A4E00DE9D11 /* ViewController.swift in Sources */,
+				636E9A4B21A91B1A00DE9D11 /* circle_view.swift in Sources */,
 				636E9A3921A91A4E00DE9D11 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
